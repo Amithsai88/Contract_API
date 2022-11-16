@@ -1,0 +1,18 @@
+<datatype> 
+    <artifact id="IIITBRP_artif1"> artifact_name </artifact>
+    <frequency>yearly</frequency>
+    <Role type="policy">Data_Requestor</Role>
+        <obligation>
+            <duration>
+                <startTime>2022-11-12T09:35:24</startTime>
+                <Time>7 days</Time>
+            </duration>
+        </obligation>
+        <Permission>
+            <action>read</action>
+        </Permission>
+        <Forbidden>
+            <action>download</action>
+            <action>share</action>
+        </Forbidden>
+</datatype>
